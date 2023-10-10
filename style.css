@@ -1,1 +1,10 @@
+img {
+  border: 4px solid;
+  width: 200;
+  height: 200;
+}
 
+table, th, td {
+  border-collapse: collapse;
+  border: 2px groove black;
+}
