@@ -4,7 +4,7 @@
   height: 200;
 }
 
-table, th, td {
+table, th, td{
   border-collapse: collapse;
   border: 2px groove black;
 }
