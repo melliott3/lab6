@@ -1,24 +1,25 @@
 body {
-	margin: auto;
+  margin: auto;
 }
-#title {
-	margin: auto;
-	color: lightblue;
-	text-align: center;
+title {
+  margin: auto;
+  color: lightblue;
+  text-align: center;
   line-height: normal;
 }
-.img{
+.cosmic{
   border: 4px inset gray;
-  width: 200;
-  height: 200;
+  width: 200px;
+  height: 200px;
 }
-#table, 
-#th, 
-#td {
+table, 
+th, 
+td {
   border-collapse: collapse;
   border: 2px groove black;
   padding: 8px;
   justify-content: space-around;
+  text-align: left;
   width: 200;
   height: 200;
 }
@@ -32,4 +33,12 @@ td {
   text-align: center;
   height: 50px;
   vertical-align: bottom;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
 }
