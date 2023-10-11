@@ -1,14 +1,35 @@
+body {
+	margin: auto;
+}
+#title {
+	margin: auto;
+	color: lightblue;
+	text-align: center;
+  line-height: normal;
+}
 .img{
   border: 4px inset gray;
   width: 200;
   height: 200;
 }
-
-table, th, td {
+#table, 
+#th, 
+#td {
   border-collapse: collapse;
   border: 2px groove black;
   padding: 8px;
   justify-content: space-around;
   width: 200;
   height: 200;
+}
+th {
+  text-align: left;
+  height: 50px;
+  vertical-align: bottom;
+  border-bottom: 1px solid #ddd;
+}
+td {
+  text-align: center;
+  height: 50px;
+  vertical-align: bottom;
 }
