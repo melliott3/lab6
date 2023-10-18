@@ -16,9 +16,9 @@ li {
 }
 
 img {
-  border: 4px inset rgb(201, 143, 143);
-  width: 200px;
-  height: 200px;
+  border: 4px inset rgb(118, 76, 76);
+  width: 100px;
+  height: 100px;
 }
 
 table, th, td {
@@ -26,7 +26,7 @@ table, th, td {
   border: 5px dotted rgb(111, 102, 163);
   padding: 8px;
   justify-content: space-around;
-  text-align: left;
+  text-align: center;
   width: 200;
   height: 200;
 }
