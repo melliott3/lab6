@@ -1,12 +1,14 @@
 body {
   margin: auto;
 }
+
 title {
   margin: auto;
   color: rgb(148, 215, 237);
   text-align: center;
   line-height: normal;
 }
+
 li {
   text-align: center;
   text-decoration: wavy;
@@ -18,28 +20,30 @@ img {
   width: 200px;
   height: 200px;
 }
-table, 
-th, 
-td {
+
+table, th, td {
   border-collapse: collapse;
-  border: 4px dotted rgb(111, 102, 163);
+  border: 5px dotted rgb(111, 102, 163);
   padding: 8px;
   justify-content: space-around;
   text-align: left;
   width: 200;
   height: 200;
 }
+
 th {
   text-align: left;
   height: 50px;
   vertical-align: bottom;
-  border-bottom: 1px solid #8d2626;
+  border-bottom: 2px solid #8d2626;
 }
+
 td {
   text-align: center;
   height: 50px;
   vertical-align: bottom;
 }
+
 table {
   border-collapse: collapse;
   width: 100%;
