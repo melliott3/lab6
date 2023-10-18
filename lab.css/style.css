@@ -27,8 +27,8 @@ table, th, td {
   padding: 8px;
   justify-content: space-around;
   text-align: center;
-  width: 200;
-  height: 200;
+  width: 200px;
+  height: 200px;
 }
 
 th {
